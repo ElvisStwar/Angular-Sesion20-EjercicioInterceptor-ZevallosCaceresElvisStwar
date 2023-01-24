@@ -1,0 +1,12 @@
+<div class="m-5">
+    <h1>Usuarios</h1>
+    <div>
+        <button class="btn btn-primary"(click)="mostrar()">Mostrar Usuarios</button>
+    </div>
+    <hr>
+    <ul>
+        <li *ngFor="let user of users">
+            {{user.name}}
+        </li>
+    </ul>
+</div>
